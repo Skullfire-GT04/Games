@@ -1,6 +1,6 @@
 echo Building Project
 
-g++ main.cpp -lSDL2 -o main
+g++ main.cpp src/utils.cpp src/button.cpp src/generic_game.cpp -lSDL2 -lSDL2_ttf -o main
 
 echo running the project
 
